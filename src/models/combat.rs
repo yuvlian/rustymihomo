@@ -24,7 +24,6 @@ pub struct Trace {
     pub element: Option<Element>,
     #[serde(rename = "type")]
     pub type_: String, 
-    #[serde(rename = "type_text")]
     pub type_text: String,
     pub effect: String,
     pub effect_text: String,
